@@ -1,1 +1,3 @@
-console.log('This would be the main JS file.');
+d3.csv("/small_proserLoanData.csv", function(data) {
+  console.log(data);
+});
