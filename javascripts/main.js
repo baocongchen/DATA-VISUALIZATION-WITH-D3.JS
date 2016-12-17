@@ -1,4 +1,4 @@
-d3.csv("/small_proserLoanData.csv", function(dataset) {
+d3.csv("small_proserLoanData.csv", function(dataset) {
 	var dat = dataset;
 	var svg1 = dimple.newSvg("#chart1", 800, 500);
 	var bar_chart_1 = new dimple.chart(svg1, dat);
