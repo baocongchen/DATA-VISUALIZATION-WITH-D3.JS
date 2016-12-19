@@ -101,7 +101,6 @@ footer p {
 
 a {
   text-decoration: none;
-  color: #007edf;
   text-shadow: none;
 
   transition: color 0.5s ease;
@@ -118,10 +117,6 @@ a {
 
 a:hover, a:focus {text-decoration: underline;}
 
-footer a {
-  color: #F2F2F2;
-  text-decoration: underline;
-}
 
 em {
   font-style: italic;
@@ -258,8 +253,11 @@ form {
 Full-Width Styles
 *******************************************************************************/
 
-.outer {
+#header_wrap .outer {
   width: 100%;
+  background: #bfbbb3;
+  min-width: 321px;
+  height: 5%;
 }
 
 .inner {
@@ -289,7 +287,8 @@ Full-Width Styles
 }
 
 #header_wrap .inner {
-  padding: 50px 10px 30px 10px;
+  padding: 50px 10px 10px 10px;
+  background: #bfbbb3;
 }
 
 #project_title {
@@ -308,7 +307,14 @@ Full-Width Styles
   text-shadow: #111 0px 0px 10px;
 }
 
-
+#project_tagline a {
+  color: #fff;
+  font-size: 24px;
+  font-weight: 300;
+  background: none;
+  text-shadow: #111 0px 0px 10px;
+  text-decoration: none;
+}
 
 #main_content_wrap {
   background: #79f2f2;
@@ -328,7 +334,9 @@ div h3 {
   padding-left: 30px;
 }
 
-
+.row h3 {
+  background-color: #ddd;
+}
 /*******************************************************************************
 Small Device Styles
 *******************************************************************************/
@@ -348,7 +356,8 @@ Small Device Styles
   }
 
   #project_title {
-  font-size: 32px;
+    font-size: 32px;
+    color: #fff;
   }
 
   h1 {
@@ -381,4 +390,9 @@ Small Device Styles
     font-size: 11px;
   }
 
+}
+
+.author {
+  text-align: right;
+  color:  #fff;
 }
