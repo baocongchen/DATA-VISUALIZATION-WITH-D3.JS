@@ -30,7 +30,7 @@ d3.csv("small_prosperLoanData.csv", function(dataset) {
     bar_chart_2.draw();
     var chart2_div = document.getElementsByClassName('row chart2')[0];
     var h3_2 = document.createElement('h3');
-    h3_2.innerHTML = "Amount Delinquent x Loan Status";
+    h3_2.innerHTML = "Amount Delinquent x Loan Status x Employment Status";
     chart2_div.insertBefore(h3_2, chart2_div.childNodes[0]);
     var html2 = '<div id="description1" class="col-sm-11 col-md-5 col-lg-5 well"><h4>Description and key points</h4>\
 			<ul><li>Loan Status: The current status of the loan: Cancelled,  Chargedoff, Completed, Current, Defaulted,\
@@ -53,7 +53,7 @@ d3.csv("small_prosperLoanData.csv", function(dataset) {
     bar_chart_3.draw();
     var chart3_div = document.getElementsByClassName('row chart3')[0];
     var h3_3 = document.createElement('h3');
-    h3_3.innerHTML = "Amount Delinquent x Loan Status";
+    h3_3.innerHTML = "Amount Delinquent x Loan Status x Term";
     chart3_div.insertBefore(h3_3, chart3_div.childNodes[0]);
     var html3 = '<div id="description1" class="col-sm-11 col-md-5 col-lg-5 well"><h4>Description and key points</h4>\
 			<ul><li>Loan Status: The current status of the loan: Cancelled,  Chargedoff, Completed, Current, Defaulted,\
