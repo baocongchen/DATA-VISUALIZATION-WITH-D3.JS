@@ -1,5 +1,5 @@
 # Data Visualization by Buu Thong Tran
-## Udacity Data Analysis Project 6
+## Udacity Data Analyst Project 6
 
 ### Summary
 
