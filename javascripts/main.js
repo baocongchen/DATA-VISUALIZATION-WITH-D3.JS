@@ -64,6 +64,8 @@ d3.csv("small_prosperLoanData.csv", function(dataset) {
             <td>1697</td><td>48</td></tr><tr><td>Current</td><td>839</td><td>2817</td></tr><tr><td>Past Due (16-30 days)</td>\
             <td>677</td><td>16</td></tr></tbody></table></div></div>';
     chart3_div.insertAdjacentHTML('beforeend', html3);
-
+    $(window).on('load', function() {
+        $(".loader").fadeOut("slow");
+      });
 })
 
