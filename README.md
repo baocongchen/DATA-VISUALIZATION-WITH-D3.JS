@@ -17,3 +17,7 @@ I posted my project on Facebook and Linkedin and asked for feedback but have not
 
 
 ### Post Feedback Design
+
+### Reference
+https://github.com/PMSI-AlignAlytics/dimple/wiki/dimple.chart#setBounds
+http://getbootstrap.com/getting-started/

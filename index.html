@@ -31,7 +31,7 @@
   </head>
 
   <body>
-
+    <div class="loader"></div>
     <!-- HEADER -->
     <div id="header_wrap" class="outer">
         <header class="inner">
@@ -57,5 +57,10 @@
 
     <div style="text-align: center;"><a href="https://www.linkedin.com/in/buuthongtran">Contact me</a></div>
     <script src="javascripts/main.js"></script>
+    <script type="text/javascript">
+      $(window).on('load', function() {
+        $(".loader").fadeOut("slow");
+      });
+    </script>
   </body>
 </html>
