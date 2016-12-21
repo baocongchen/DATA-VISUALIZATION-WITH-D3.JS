@@ -11,7 +11,7 @@ d3.csv("small_prosperLoanData.csv", function(dataset) {
     var h3_1 = document.createElement('h3');
     h3_1.innerHTML = "Loan Status x Loan Original Amount";
     chart1_div.insertBefore(h3_1, chart1_div.childNodes[0]);
-    var html1 = '<div id="description1" class="col-sm-11 col-md-5 col-lg-5 well"><h4>Description and key points</h4><ul><li>Loan Status: The current status\
+    var html1 = '<div id="description1" class="col-sm-12 col-md-5 col-lg-5 well"><h4>Description and key points</h4><ul><li>Loan Status: The current status\
 			of the loan: Cancelled,  Chargedoff, Completed, Current, Defaulted, FinalPaymentInProgress, PastDue. The PastDue status will be accompanied\
 			by a delinquency bucket.</li><li>Loan Original Amount: The origination amount of the loan.</li></ul>\
 			<div class="table-responsive"><table class="table"><thead><tr><th>Loan Status</th><th>Average Loan Original Amount</th>\
@@ -32,7 +32,7 @@ d3.csv("small_prosperLoanData.csv", function(dataset) {
     var h3_2 = document.createElement('h3');
     h3_2.innerHTML = "Amount Delinquent x Loan Status x Employment Status";
     chart2_div.insertBefore(h3_2, chart2_div.childNodes[0]);
-    var html2 = '<div id="description1" class="col-sm-11 col-md-5 col-lg-5 well"><h4>Description and key points</h4>\
+    var html2 = '<div id="description1" class="col-sm-12 col-md-5 col-lg-5 well"><h4>Description and key points</h4>\
 			<ul><li>Loan Status: The current status of the loan: Cancelled,  Chargedoff, Completed, Current, Defaulted,\
 			FinalPaymentInProgress, PastDue. The PastDue status will be accompanied by a delinquency bucket.</li>\
 			<li>Amount Delinquent: Dollars delinquent at the time the credit profile was pulled.</li></ul>\
@@ -55,7 +55,7 @@ d3.csv("small_prosperLoanData.csv", function(dataset) {
     var h3_3 = document.createElement('h3');
     h3_3.innerHTML = "Amount Delinquent x Loan Status x Term";
     chart3_div.insertBefore(h3_3, chart3_div.childNodes[0]);
-    var html3 = '<div id="description1" class="col-sm-11 col-md-5 col-lg-5 well"><h4>Description and key points</h4>\
+    var html3 = '<div id="description1" class="col-sm-12 col-md-5 col-lg-5 well"><h4>Description and key points</h4>\
 			<ul><li>Loan Status: The current status of the loan: Cancelled,  Chargedoff, Completed, Current, Defaulted,\
 			FinalPaymentInProgress, PastDue. The PastDue status will be accompanied by a delinquency bucket.</li>\
 			<li>Amount Delinquent: Dollars delinquent at the time the credit profile was pulled.</li></ul>\

@@ -407,3 +407,7 @@ Small Device Styles
     background: url('images/pageloader.gif') 50% 50% no-repeat rgb(249,249,249);
     opacity: .8;
 }
+
+.well {
+  margin-left: 4px;
+}
