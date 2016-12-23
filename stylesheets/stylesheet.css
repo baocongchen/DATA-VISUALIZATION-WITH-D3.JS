@@ -267,23 +267,12 @@ Full-Width Styles
   margin: 0 auto;
 }
 
-#forkme_banner {
-  display: block;
-  position: absolute;
-  top:0;
-  right: 10px;
-  z-index: 10;
-  padding: 10px 50px 10px 10px;
-  color: #fff;
-  background: url('../images/blacktocat.png') #0090ff no-repeat 95% 50%;
-  font-weight: 700;
-  box-shadow: 0 0 10px rgba(0,0,0,.5);
-  border-bottom-left-radius: 2px;
-  border-bottom-right-radius: 2px;
-}
+
 
 #header_wrap {
   background: #bfbbb3;
+  margin-right: -15px;
+  margin-left: -15px;
 }
 
 #header_wrap .inner {
@@ -330,12 +319,11 @@ Full-Width Styles
   background: #212121;
 }
 
-div h3 {
-  padding-left: 30px;
-}
 
-.row h3 {
+.sec h3 {
   background-color: #ddd;
+  margin-top: 0px;
+  padding-left: 2em;
 }
 /*******************************************************************************
 Small Device Styles
@@ -409,5 +397,12 @@ Small Device Styles
 }
 
 .well {
-  margin-left: 4px;
+  margin-left: 2px;
+}
+
+.tab1 {
+    text-indent: 1em;
+    margin: 0;
+    padding: 1em;
+    width: 100%;
 }

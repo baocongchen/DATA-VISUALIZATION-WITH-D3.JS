@@ -6,11 +6,12 @@
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
     <meta name="description" content="Data visualization with d3.js : Udacity Data Analyst Project 6">
 
-    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+    
 
     <title>Data Visualization by Buu Thong Tran</title>
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="stylesheets/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="javascripts/jquery-3.1.1.min.js"></script>
     <!-- Latest compiled and minified JavaScript -->
@@ -42,25 +43,24 @@
     </div>
 
     <!-- MAIN CONTENT -->
-    <div class="row chart1" id="frame1">
+    <div class="sec row">
+      <h3>Introduction</h3>
+      <p class="tab1">Prosper is America’s first peer-to-peer lending marketplace, with more than 2 million members and over $2,000,000,000 in funded loans. Here we use the data available to the public (last updated on March 11th, 2014) from Prosper, which contains all the listings and loans ever created with 81 variables on each loan/listing, to do some data analysis. I want to figure out some issue related to loan status, so accounts which have status categorized as Defaulted, Chargedoff, and Past Due are the focal point of my analysis</p>
+    </div>
+    <div class="sec row chart1" id="frame1">
       <div id="chart1" class="col-sm-12 col-md-6 col-lg-6"></div>
       
     </div>
     
-    <div class="row chart2" id="frame2">
+    <div class="sec row chart2" id="frame2">
       <div id="chart2" class="col-sm-12 col-md-6 col-lg-6"></div>
     </div>
     
-    <div class="row chart3" id="frame3">
+    <div class="sec row chart3" id="frame3">
       <div id="chart3" class="col-sm-12 col-md-6 col-lg-6"></div>
     </div>
-
     <div style="text-align: center;"><a href="https://www.linkedin.com/in/buuthongtran">Contact me</a></div>
     <script src="javascripts/main.js"></script>
-    <script type="text/javascript">
-      $(window).on('load', function() {
-        $(".loader").fadeOut("slow");
-      });
-    </script>
+    
   </body>
 </html>
