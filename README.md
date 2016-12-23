@@ -13,11 +13,14 @@ Dataset: Loan Data from Prosper.
 
 ### Feedback
 
-I posted my project on Facebook and Linkedin and asked for feedback but have not received any feedback yet.
-
+- Feedback 1 (from Udacity project reviewer):
+It would be great if you pass some basic introduction information about prosper so the viewers will get a context when they explore the chart.
 
 ### Post Feedback Design
+- Added introduction section as suggested in feedback 1.
+- Added loading icon.
+- Added conclusion section.
 
 ### Reference
-https://github.com/PMSI-AlignAlytics/dimple/wiki/dimple.chart#setBounds
-http://getbootstrap.com/getting-started/
+[dimple.js documentation](https://github.com/PMSI-AlignAlytics/dimple/wiki/dimple.chart#setBounds "DimpleJS's Wiki")
+[Twitter Bootstrap documentation](http://getbootstrap.com/getting-started/ "Twitter Bootstrap")

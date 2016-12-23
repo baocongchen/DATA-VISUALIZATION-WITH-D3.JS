@@ -84,7 +84,7 @@ d3.csv("small_prosperLoanData.csv", function(dataset) {
 	chart3_div.insertAdjacentHTML('beforeend', html3);
 	// Create div element and add conclusion
 	var conclusion = '<div class="sec row"><h3>Conclusion</h3><p class="tab1">Looking at the charts above, we can see that the loan original amount of Chargedoff \
-	and Defaulted accounts exceeds $6,000,000. Based on the parterns we discovered above, when we consider further research in the future, \
+	and Defaulted accounts exceeds $6,000,000. Based on the parterns discovered above, when we consider further research in the future, \
 	we should focus on Chargedoff and Defaulted accounts whose term is 36 months and employment status categorized as full-time and employed.</p></div>';
 	chart3_div.insertAdjacentHTML('afterend', conclusion);
 });
