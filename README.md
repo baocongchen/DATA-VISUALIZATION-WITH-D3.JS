@@ -38,7 +38,7 @@ I implemented the following improvements after examining all the feedback: <br>
 ![Feedback 3-2](/stylesheets/images/feedback3-2.png?raw=true "Feedback 3-2")
 ![Feedback 3-3](/stylesheets/images/feedback3-3.png?raw=true "Feedback 3-3") <br>
 
-### I did not improve the time needed to load the data. However, I have added a loading icon to notify users that the page is loading and they have to wait until the charts appear.<br>
+#### I did not improve the time needed to load the data. However, I have added a loading icon to notify users that the page is loading and they have to wait until the charts appear.<br>
 ![Feedback 2](/stylesheets/images/feedback2.png?raw=true "Feedback 2")<br>
 
 
