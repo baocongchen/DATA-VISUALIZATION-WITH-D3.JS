@@ -30,7 +30,7 @@ The charts are well-designed and backed up with explanation, so it is easy to un
 ### Post Feedback Design
 I implemented the following improvements after examining all the feedback: 
 ***Added link to download the data.***<br>
-![Feedback 1](/stylesheets/feedback1.png?raw=true "Feedback 1") <br>
+![Feedback 1](/stylesheets/images/feedback1.png?raw=true "Feedback 1") <br>
 ***Added space between each word in a label.*** <br>
 ![Feedback 3-1](/stylesheets/images/feedback3-1.png?raw=true "Feedback 3-1")
 ![Feedback 3-2](/stylesheets/images/feedback3-2.png?raw=true "Feedback 3-2")
@@ -40,5 +40,7 @@ I implemented the following improvements after examining all the feedback:
 
 
 ### Reference
+
 [dimple.js documentation](https://github.com/PMSI-AlignAlytics/dimple/wiki/dimple.chart#setBounds "DimpleJS's Wiki")
-[Twitter Bootstrap documentation](http://getbootstrap.com/getting-started/ "Twitter Bootstrap"),
+
+[Twitter Bootstrap documentation](http://getbootstrap.com/getting-started/ "Twitter Bootstrap")
