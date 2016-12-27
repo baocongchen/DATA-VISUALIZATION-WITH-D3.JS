@@ -28,14 +28,17 @@ The visualiztion shows the relationships between loan status and other variables
 The charts are well-designed and backed up with explanation, so it is easy to understand what you try to explain here. I think the relationships between loan status and other variables showed on the charts can be understood easily, and people can use this understanding to further investigate and develop a solution to decrease the delinquent amount of accounts whose term is 36 and employment status classified as full-time and employment. I would suggest that you change the chart labels by adding a space between each word in a label. 
 
 ### Post Feedback Design
-I implemented the following improvements after examining all the feedback: 
-***Added link to download the data.***<br>
+I implemented the following improvements after examining all the feedback: <br>
+
+#### Added link to download the data.<br>
 ![Feedback 1](/stylesheets/images/feedback1.png?raw=true "Feedback 1") <br>
-***Added space between each word in a label.*** <br>
+
+#### Added space between each word in a label. <br>
 ![Feedback 3-1](/stylesheets/images/feedback3-1.png?raw=true "Feedback 3-1")
 ![Feedback 3-2](/stylesheets/images/feedback3-2.png?raw=true "Feedback 3-2")
 ![Feedback 3-3](/stylesheets/images/feedback3-3.png?raw=true "Feedback 3-3") <br>
-***I did not improve the time needed to load the data. However, I have added a loading icon to notify users that the page is loading and they have to wait until the charts appear.***<br>
+
+### I did not improve the time needed to load the data. However, I have added a loading icon to notify users that the page is loading and they have to wait until the charts appear.<br>
 ![Feedback 2](/stylesheets/images/feedback2.png?raw=true "Feedback 2")<br>
 
 
