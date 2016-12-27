@@ -13,14 +13,27 @@ Dataset: Loan Data from Prosper.
 
 ### Feedback
 
-- Feedback 1 (from Udacity project reviewer):
-It would be great if you pass some basic introduction information about prosper so the viewers will get a context when they explore the chart.
+I pose the following questions as I collect feedback.<br>
+What do you notice in the visualization?<br>
+What questions do you have about the data?<br>
+What relationships do you notice?<br>
+What do you think is the main takeaway from this visualization?<br>
+Is there something you don’t understand in the graphic?<br>
+
+- Feedback 1:
+The charts are interactive and easy to understand. Each chart has a description and key points, so it is easy to relate the information to each chart. The data source was described but there is no link where I can download the data to verify the info. 
+- Feedback 2:
+The visualiztion shows the relationships between loan status and other variables. The explanation provided in each chart helps me understand the main takeaway of the charts: account that has term 36 months and employment status categorized as full-time and employed should be the main subject of analysis in next phase investigation. There is one thing I notice is the load time. I have to wait around 10 seconds until the charts show. Hope you will improve the load time. 
+- Feedback 3:
+The charts are well-designed and backed up with explanation, so it is easy to understand what you try to explain here. I think the relationships between loan status and other variables showed on the charts can be understood easily, and people can use this understanding to further investigate and develop a solution to decrease the delinquent amount of accounts whose term is 36 and employment status classified as full-time and employment. I would suggest that you change the chart labels by adding a space between each word in a label. 
 
 ### Post Feedback Design
-- Added introduction section as suggested in feedback 1.
-- Added loading icon.
-- Added conclusion section.
+I implemented the following new improvements after examining all the feedback 
+- Added link to download the data.
+- Added space between each word in a label.
+- I did not improve the time needed to load the data. However, I have added a loading icon to notify users that the page is loading and they have to wait until the charts appear.
 
 ### Reference
 [dimple.js documentation](https://github.com/PMSI-AlignAlytics/dimple/wiki/dimple.chart#setBounds "DimpleJS's Wiki")
-[Twitter Bootstrap documentation](http://getbootstrap.com/getting-started/ "Twitter Bootstrap")
+[Prosper Loan Data](https://github.com/baocongchen/Data-Visualization-With-d3.js/blob/gh-pages/small_prosperLoanData.csv "Prosper Loan Data"),
+[Twitter Bootstrap documentation](http://getbootstrap.com/getting-started/ "Twitter Bootstrap"),

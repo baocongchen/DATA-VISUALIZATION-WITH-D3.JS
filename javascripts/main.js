@@ -7,8 +7,10 @@ d3.csv("small_prosperLoanData.csv", function(dataset) {
 	// Create a new chart object based on this data and svg
 	var bar_chart_1 = new dimple.chart(svg1, dat);
 	bar_chart_1.setBounds(60, 35, "70%", 350);
-	bar_chart_1.addCategoryAxis("x", "LoanStatus");
-	bar_chart_1.addMeasureAxis("y", "LoanOriginalAmount");
+	var x_chart1 = bar_chart_1.addCategoryAxis("x", "LoanStatus");
+	x_chart1.title = "Loan Status";
+	var y_chart1 =bar_chart_1.addMeasureAxis("y", "LoanOriginalAmount");
+	y_chart1 = "Loan Original Amount";
 	bar_chart_1.addSeries("", dimple.plot.bar);
 	bar_chart_1.draw();
 	// Create header and description section for chart 1
@@ -35,9 +37,10 @@ d3.csv("small_prosperLoanData.csv", function(dataset) {
 	// Create a new chart object based on this svg
 	var bar_chart_2 = new dimple.chart(svg2, dat);
 	bar_chart_2.setBounds(120, 40, "60%", 350);
-	bar_chart_2.addMeasureAxis("x", "AmountDelinquent");
+	var x_chart2 = bar_chart_2.addMeasureAxis("x", "AmountDelinquent");
+	x_chart2.title = "Amount Delinquent";
 	bar_chart_2.addCategoryAxis("y", ["LoanStatus"]);
-	bar_chart_2.addSeries("EmploymentStatus", dimple.plot.bar);
+  bar_chart_2.addSeries("EmploymentStatus", dimple.plot.bar);
 	bar_chart_2.addLegend("2%", 10, "100%", "100%", "right");
 	bar_chart_2.draw();
 	// Create header and description section for chart 2
@@ -63,7 +66,8 @@ d3.csv("small_prosperLoanData.csv", function(dataset) {
 	var bar_chart_3 = new dimple.chart(svg3, dat);
 	bar_chart_3.setBounds(120, 35, "60%", 350);
 	bar_chart_3.addCategoryAxis("y", "LoanStatus");
-	bar_chart_3.addMeasureAxis("x", "AmountDelinquent");
+	var x_chart3 = bar_chart_3.addMeasureAxis("x", "AmountDelinquent");
+	x_chart3.title = "Amount Delinquent";
 	bar_chart_3.addSeries("Term", dimple.plot.bar);
 	bar_chart_3.addLegend("2%", 20, 200, 20, "right");
 	bar_chart_3.draw();
