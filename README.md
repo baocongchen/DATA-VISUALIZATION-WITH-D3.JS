@@ -28,12 +28,17 @@ The visualiztion shows the relationships between loan status and other variables
 The charts are well-designed and backed up with explanation, so it is easy to understand what you try to explain here. I think the relationships between loan status and other variables showed on the charts can be understood easily, and people can use this understanding to further investigate and develop a solution to decrease the delinquent amount of accounts whose term is 36 and employment status classified as full-time and employment. I would suggest that you change the chart labels by adding a space between each word in a label. 
 
 ### Post Feedback Design
-I implemented the following new improvements after examining all the feedback 
-- Added link to download the data.
-- Added space between each word in a label.
-- I did not improve the time needed to load the data. However, I have added a loading icon to notify users that the page is loading and they have to wait until the charts appear.
+I implemented the following improvements after examining all the feedback: 
+***Added link to download the data.***
+![Feedback 1](/stylesheets/feedback1.png?raw=true "Feedback 1")
+***Added space between each word in a label.***
+![Feedback 3-1](/stylesheets/feedback3-1.png?raw=true "Feedback 3-1")
+![Feedback 3-2](/stylesheets/feedback3-2.png?raw=true "Feedback 3-2")
+![Feedback 3-3](/stylesheets/feedback3-3.png?raw=true "Feedback 3-3")
+***I did not improve the time needed to load the data. However, I have added a loading icon to notify users that the page is loading and they have to wait until the charts appear.***
+![Feedback 2](/stylesheets/feedback2.png?raw=true "Feedback 2")
+
 
 ### Reference
 [dimple.js documentation](https://github.com/PMSI-AlignAlytics/dimple/wiki/dimple.chart#setBounds "DimpleJS's Wiki")
-[Prosper Loan Data](https://github.com/baocongchen/Data-Visualization-With-d3.js/blob/gh-pages/small_prosperLoanData.csv "Prosper Loan Data"),
 [Twitter Bootstrap documentation](http://getbootstrap.com/getting-started/ "Twitter Bootstrap"),
