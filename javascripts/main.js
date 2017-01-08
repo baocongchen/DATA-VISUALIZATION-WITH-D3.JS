@@ -3,7 +3,7 @@ d3.csv("small_prosperLoanData.csv", function(dataset) {
 	var dat = dataset;
 	// Create chart 1
 	// Adds an svg element based on the passed selector and returns the underlying svg element
-	var svg1 = dimple.newSvg("#chart1", "100%", 520);
+	var svg1 = dimple.newSvg("#chart1", "100%", 530);
 	// Create a new chart object based on this data and svg
 	var bar_chart_1 = new dimple.chart(svg1, dat);
 	bar_chart_1.setBounds(60, 35, "70%", 350);
